@@ -1,0 +1,25 @@
+
+
+/* General */
+.container, .container-fluid{
+	max-width: 1310px;
+}
+
+/* header */
+
+.header {
+	background-color:#f72210;
+}
+
+.wheather{
+	color:white;
+}
+
+.wheather-img{
+	width: 24px;
+	height: 24px;
+}
+
+.login{
+	color: white;
+}
