@@ -1,25 +1,172 @@
+/* General definitions */
 
 
-/* General */
+@font-face{
+	font-family: "Roboto Condensed" ;
+	src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+html *{
+	 font-family: "Roboto Condensed", arial, sans-serif;	
+}
+
+body {
+	 background-color:#f4f5f6;
+}
+
 .container, .container-fluid{
 	max-width: 1310px;
 }
 
-/* header */
-
-.header {
-	background-color:#f72210;
+.bg-primary{
+	background-color: #f72210 !important;
 }
 
-.wheather{
-	color:white;
+.text-primary {
+	color: #f72210 !important;
 }
 
-.wheather-img{
+.border *{
+	border: solid 2px black !important;
+}
+
+/* top navbar */
+
+.logo>img{
+	width:132px;
+	margin-left: 15px;
+}
+
+.temp-icon>img{
+	width:24px;
+	height:24px;
+}
+
+.subscribe-btn, .login-btn{
+	padding: 6px 2px;
+	font-weight: 700;
+	font-size: 14px;
+	margin-left:10px;
+	line-height: 14px;
+}
+
+.toggler-icon{
+	width: 50px;
+	height: 50px;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	display:block;
 	width: 24px;
-	height: 24px;
+	height:4px;
+	background-color:#fb9a94;
+	margin:2px;
 }
 
-.login{
-	color: white;
+.toggler-icon::before, .toggler-icon::after{
+	content:"";
 }
+
+@media(min-width:481px){
+	
+	
+	.subscribe-btn{
+		flex-basis: 121px;
+		margin-right: 6px;
+	}
+	.subscribe-btn, .login-btn{
+	padding: 6px 8px 6px 9px;
+	font-weight: 700;
+	font-size: 18px;
+	margin-left:10px;
+	line-height: 14px;
+}
+
+.login-btn{
+		padding-right:2px;
+	}
+
+.subscribe-btn::after {
+		width: 8px;
+		height: 14px;
+		content:"";
+		display:inline-block;
+		margin-left:10px;
+		background: url(images/icon-arrow-right-red.svg) center / contain no-repeat;
+	}
+
+.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	width: 30px;
+	}
+	
+	.toggler-icon{
+		width: 74px;
+	}
+}
+
+
+
+@media(min-width:576px){
+	
+	.temp-icon{
+		margin-left: 23px;
+		margin-right: 5px;
+	}
+		
+	.temp-deg{
+		font-size: 15px;
+	}
+}
+
+
+@media(min-width:641px){
+	.temp-location{
+		display: block !important;
+		padding-left:8px;
+		font-size:15px;
+	}
+	
+	.temp-location > .state{
+		margin-right: 7px;
+	}
+	
+}
+
+
+@media(min-width:992px){
+	.temp, .login{
+	width: 210px;
+	}
+
+	.logo > img {
+		width: 396px; 
+	}
+	
+	.temp-date, .temp-icon{
+		margin-left: 20px;
+		margin-left: 20px;
+	}
+	
+	.temp-date{
+		margin-top: 10px;
+	}
+	
+	.nav-top{
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+}
+
+
+@media(min-width:1200px){
+	.temp-date, .temp-icon{
+		margin-left: 30px;
+		margin-left: 30px;
+	}
+	
+}
+
+
+/* bottom navbar */

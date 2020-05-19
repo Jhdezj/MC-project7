@@ -1,0 +1,251 @@
+
+
+/* General definitions */
+
+@font-face{
+	font-family: "Roboto Condensed" ;
+	src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+html *{
+	 font-family: "Roboto Condensed", arial, sans-serif;	
+}
+
+.container, .container-fluid{
+	max-width: 1310px;
+}
+
+.bg-gray-base{
+	background-color: #f4f5f6 !important;
+}
+
+.bg-primary {
+  background-color: #f72210 !important;
+}
+
+.text-primary {
+	color:#f72210 !important;
+}
+
+.badge{
+	border-radius:0;
+	font-size:90%;
+	padding: 15px 5px ;
+	line-height: 20px;
+	
+}
+
+
+/* Navbar */
+
+nav *{border:solid;}
+
+
+.logo{
+	width:132px;
+	height:auto;
+
+}
+
+.toggler-icon{
+	width: 50px;
+	height: 50px;
+}
+
+.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	display:block;
+	width: 24px;
+	height:4px;
+	background-color:#fb9a94;
+	margin:2px;
+}
+
+.toggler-icon::before, .toggler-icon::after{
+	content:"";
+}
+
+@media (min-width: 480px){
+	.login, .subscribe {
+		font-size:18px;
+	}
+	
+	.subscribe{
+		line-height: 14px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	.subscribe::after {
+		width: 8px;
+		height: 14px;
+		content:"";
+		display:inline-block;
+		margin-left:10px;
+		background: url(images/icon-arrow-right-red.svg) center / contain no-repeat;
+	}
+	
+	.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	width: 30px;
+	}
+	.toggler-icon{
+		width: 74px;
+	}
+	
+}
+
+@media (min-width: 992px){
+	.logo{
+		flex-basis: 396px;
+		height:60px;
+		margin:auto;
+		
+	}
+}
+
+
+
+
+.wheather-img{
+	width: 24px;
+	height: 24px;
+}
+
+
+.border{
+	border:solid;
+}
+
+
+/* ultimo */
+
+/* General definitions */
+
+
+@font-face{
+	font-family: "Roboto Condensed" ;
+	src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+html *{
+	 font-family: "Roboto Condensed", arial, sans-serif;	
+}
+
+body {
+	 background-color:#f4f5f6;
+}
+
+.container, .container-fluid{
+	max-width: 1310px;
+}
+
+.bg-primary{
+	background-color: #f72210 !important;
+}
+
+.text-primary {
+	color: #f72210 !important;
+}
+
+
+/* navbar */
+
+.logo{
+	width:132px;
+	height:auto;
+}
+.temp-icon{
+	width:24px;
+	height:24px;
+}
+
+.subscribe-btn, .login-btn{
+	padding: 6px 2px;
+	font-weight: 700;
+	font-size: 14px;
+	margin-left:10px;
+	line-height: 14px;
+}
+
+.toggler-icon{
+	width: 50px;
+	height: 50px;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	display:block;
+	width: 24px;
+	height:4px;
+	background-color:#fb9a94;
+	margin:2px;
+}
+
+.toggler-icon::before, .toggler-icon::after{
+	content:"";
+}
+
+@media(min-width:481px){
+	
+	
+	.subscribe-btn{
+		flex-basis: 121px;
+	}
+	.subscribe-btn, .login-btn{
+	padding: 6px 8px 6px 10px;
+	font-weight: 700;
+	font-size: 18px;
+	margin-left:10px;
+	line-height: 14px;
+}
+
+.login-btn{
+		padding-right:3px;
+	}
+
+.subscribe-btn::after {
+		width: 8px;
+		height: 14px;
+		content:"";
+		display:inline-block;
+		margin-left:10px;
+		background: url(images/icon-arrow-right-red.svg) center / contain no-repeat;
+	}
+
+.toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
+	width: 30px;
+	}
+	
+	.toggler-icon{
+		padding-left: 25px;
+		padding-right: 20px;
+	}
+}
+
+
+@media(min-width:641px){
+	.location{
+		flex-grow:1;
+		display: inline-block !important;
+	}
+	
+	.temp-deg{
+		flex-grow:0;
+	}
+	
+}
+
+	@media (min-width:992px){
+		.logo{
+			width: 396px;
+			height: 60px;
+		}
+		
+		.weather, .log-in{
+			width: 250px;
+		}
+		
+}
+
+
+
