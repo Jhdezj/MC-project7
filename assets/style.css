@@ -363,7 +363,6 @@ body {
 
 .more-stories-item{
 	border-top: #ddd solid 1px;
-	margin-bottom: -20px;
 }
 
 .more-stories-item img{
@@ -393,4 +392,12 @@ body {
 .heroes figcaption{
 	font-size: 16px;
 	color: rgba(3,3,3,.5);
+}
+
+
+
+.feature-articles::after{
+	content="";
+	display:block;
+	clear:none;
 }
