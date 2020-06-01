@@ -577,5 +577,41 @@ body {
 		top: 0;
 	}
 	
+}
+
+/* In the Magazine */
+
+.arrow-right-black::after{
+	content:"";
+	display: inline-block;
+	width: 8px; 
+	height: 14px; 
+	margin-left: 10px; 
+	background-image: url(images/icon-arrow-right-black.svg);
+}
+
+.see-all-features{
+	background-color: #dbdcdd;
+	line-height: 18px;
+	font-size:18px;
+	padding-top:10px; 
+	padding-bottom: 10px;
+}
+
+.in-the-magazine .tag{
 	
+	color: #f72210;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-weight: bold; 
+	font-size: 16px; 
+}
+
+.in-the-magazine .tag .classification{
+	padding: 0 7px; 
+	background-color: #f72210;
+	color: white;
+	margin-right: 7px;
+	line-height: 26px;
+	display: inline-block;
 }
