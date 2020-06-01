@@ -406,6 +406,46 @@ body {
 	padding-right: 15px;
 }
 
+.newsletter-sign-up{
+	background-color:#f4f5f6;
+	max-width: 300px;
+	font-weight: bold;
+	font-size: 19px;
+	line-height:19px;
+	text-transform: uppercase;
+	padding: 20px;
+	margin: auto;
+	
+	
+}
+
+.n-icon{
+	width: 29px;
+	height: 28px;
+	background-color: red;
+	margin-right: 10px;
+}
+
+
+.newsletter-sign-up .submit-btn{
+	background: url(images/free-sign-up.svg) center/108px no-repeat #f61602;
+	font-size:0;
+	height: 32px;
+	margin-top: 8px;
+	border-radius: 3px;
+	border: none;
+}
+
+.newsletter-sign-up .form-text{
+	font-size: 14px;
+	color:#555;
+	border: solid 1px #e0e1e1;
+	text-indent: 9px;
+	height: 32px;
+	
+}
+
+
 
 
 
@@ -456,7 +496,6 @@ body {
 	}
 	
 	.sponsored2{
-		width:100%;
 		grid-area:sp2;
 		width: 40%;
 		margin:auto;
@@ -498,8 +537,45 @@ body {
 	}
 	.more-stories .sticky-wrapper{
 		position: sticky;
-		top: 0px;
+		top: 0;
 	}
 
 
+}
+
+@media (min-width: 992px) {
+	
+	.main-articles-wrapper{
+		background-color: white !important; 
+		display:grid;
+		grid-template-columns: 30% 40% 30%;
+		grid-template-areas: 
+			"fa  ts   do"
+			"fa  mhc  do"
+			"fa  mhc  sp2"
+			"sp1 mhc  sp2"
+			"sp1 mhc  sp2";
+			
+			
+		justify-content: center;
+		
+				
+	}
+	
+	.sponsored1{
+		margin-bottom:0;
+	}
+	
+	.sponsored2{
+		grid-area:sp2;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.sponsored2 .sticky-wrapper{
+		position: sticky;
+		top: 0;
+	}
+	
+	
 }
