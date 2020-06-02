@@ -581,6 +581,11 @@ body {
 
 /* In the Magazine */
 
+ .story-section {
+	border-bottom: solid #d9d9d9 1px;
+	color: black;
+}
+
 .arrow-right-black::after{
 	content:"";
 	display: inline-block;
@@ -590,8 +595,8 @@ body {
 	background-image: url(images/icon-arrow-right-black.svg);
 }
 
-.see-all-features{
-	background-color: #dbdcdd;
+.in-the-magazine .see-all-features{
+	background-color: #f4f5f6;
 	line-height: 18px;
 	font-size:18px;
 	padding-top:10px; 
@@ -614,4 +619,75 @@ body {
 	margin-right: 7px;
 	line-height: 26px;
 	display: inline-block;
+}
+
+
+@media (min-width: 768px){
+.in-the-magazine figcaption{
+	font-size: 20px;
+	line-height: 20px;
+}
+
+ .in-the-magazine-item .img-container{
+	 width: 100%;
+	 padding-top:100%;
+	 overflow: hidden;
+ }
+.in-the-magazine-item img{
+	position: absolute; 
+	left: 50%;
+	top: 50%; 
+	height: 100%;
+	width: auto !important; 
+	transform: translate(-50%, -50%);
+	
+}
+
+.in-the-magazine-wrapper div:nth-child(1){
+	align-self: center;
+	
+}
+
+.in-the-magazine .story-section {
+	font-size: 19px;
+}
+
+}
+
+
+
+
+
+/* Editors picks */
+
+.editors-pick figcaption {
+	font-size: 20px;
+	line-height: 20px;
+
+}
+
+.editors-pick .story-description {
+	font-size: 13px;
+	line-height: 18px;	
+}
+
+@media(min-width: 768px){
+	
+	
+.editors-pick .story-section {
+	font-size: 19px;
+}
+
+.editors-pick figcaption {
+	font-size: 24px;
+	line-height: 24px;
+
+}
+	
+.editors-pick .story-description{
+	
+	font-size: 15px;
+	line-height: 20px;
+}
+	
 }
