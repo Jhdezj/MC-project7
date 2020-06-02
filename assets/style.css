@@ -691,3 +691,67 @@ body {
 }
 	
 }
+
+
+
+/* sections*/
+
+	.sections{
+		font-size: 18px; 
+		line-height: 18px;
+		color: black;
+		
+	}
+	
+	
+
+ .sections .story-section {
+	border-top: solid #d9d9d9 1px;
+	color: black;
+	border-bottom: none;
+	font-size: 22px;
+
+}
+
+.sections-subitems{
+	font-size: 17px;
+}
+
+
+
+.sections-subitems figure:nth-child(n){
+	
+	border-top: solid 1px #ddd;
+
+}
+
+.sections-subitems figure:nth-child(1){
+	
+	border-top: none;
+
+}
+
+
+.sections-subitems figure:nth-child(n) img  {
+	width: 95px; 
+	height: 95px; 
+	
+}
+
+.sections-subitems figure:nth-child(1) img  {
+	width: 95px; 
+	height: 63.3px;
+}
+
+
+@media(min-width: 768px){
+	
+	.sections-item figcaption {
+		font-size: 22px;
+		line-height: 22px;
+	}
+	
+	
+}
+
+
