@@ -809,7 +809,7 @@ main .container-lg-fluid {
 	
 	
  .subscribe .story-section {
-	border-top: solid #d9d9d9 1px;
+	
 	color: black;
 	border-bottom: none;
 	font-size: 16px;
@@ -849,6 +849,13 @@ main .container-lg-fluid {
 	}
 
 @media (min-width: 768px){
+	.subscribe .story-section {
+	border-top: solid #d9d9d9 1px;
+	
+	
+}
+	
+	
 	.subscribe-item  figcaption {
 		font-size: 24px;
 		line-height: 28px;
@@ -894,9 +901,6 @@ display: none;
 		background: url(images/icon-arrow-right.svg) center / contain no-repeat;
 	} 
 	
-.subscribe-wrapper{
-	border: solid 1px #ebebeb;
-}
 
 .newsletter{
 	color: black;
@@ -936,6 +940,11 @@ display: none;
 
 
 @media (min-width: 768px){
+	
+	.subscribe-wrapper{
+	border: solid 1px #ebebeb;
+}
+
 	#email{
 		width: 100%;
 		
