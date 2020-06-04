@@ -12,6 +12,7 @@ html *{
 
 body {
 	 background-color:#f4f5f6;
+	 min-width: 450px;
 }
 
 .container, .container-fluid{
@@ -213,6 +214,7 @@ main .container-lg-fluid {
 	flex-grow:1;
 	border-left: 1px solid #d9d9d9;
 	text-align:center;
+	margin:auto;
 }
 
 .nav-bottom{
@@ -221,16 +223,34 @@ main .container-lg-fluid {
 }
 
 .search{
-	color: rgba(0,0,0,.3);
+	color: rgba(3,3,3,.4);
 	font-size: 16px;
 	font-family: arial;
 	font-weight: 500;
-	margin-top:17px; 
+	width: 70px;
 }
 
-.search-wrap{
-	width: 30px;
+
+.search-box{
+	width: 70px;
+	border: none;
+	
 }
+
+.search-wrap {
+	
+	width: 168px;
+	height: 35px;
+}
+
+.search-box:focus{
+	position: absolute;
+	left:0;
+	width:100%;
+	top: -2px;
+}
+
+
 
 .search-icon {
 	background: url(images/search-icon.svg) no-repeat;
