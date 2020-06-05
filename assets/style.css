@@ -62,6 +62,33 @@ main .container-lg-fluid {
 
 
 }
+
+header {
+	position: fixed;
+	top:0;
+	z-index:1;
+}
+
+main{
+	margin-top: 50px;
+}
+
+
+
+
+@media (min-width:992px){
+header {
+position: static;
+}
+
+main {
+	margin-top: 0;
+}
+
+}
+
+
+
 /* top navbar */
 
 .logo>img{
@@ -80,6 +107,7 @@ main .container-lg-fluid {
 	font-size: 14px;
 	margin-left:10px;
 	line-height: 14px;
+	
 }
 
 .toggler-icon{
@@ -104,11 +132,21 @@ main .container-lg-fluid {
 @media(min-width:481px){
 	
 	
-	.subscribe-btn{
+	.subscribe-btn, .subscribe-btn-b{
 		flex-basis: 121px;
 		margin-right: 6px;
+		background-color: yellow;
+		color: black !important;
+		border-radius:3px;
 	}
-	.subscribe-btn, .login-btn{
+	
+	.subscribe-btn{
+		
+		color: white !important;
+		
+	}
+	
+	.subscribe-btn, .login-btn, .subscribe-btn-b{
 	padding: 6px 8px 6px 9px;
 	font-weight: 700;
 	font-size: 18px;
@@ -120,13 +158,22 @@ main .container-lg-fluid {
 		padding-right:2px;
 	}
 
+.subscribe-btn-b::after {
+		width: 8px;
+		height: 14px;
+		content:"";
+		display:inline-block;
+		margin-left:10px;
+		background: url(images/icon-arrow-right-black.svg) center / contain no-repeat;
+	}
+
 .subscribe-btn::after {
 		width: 8px;
 		height: 14px;
 		content:"";
 		display:inline-block;
 		margin-left:10px;
-		background: url(images/icon-arrow-right-red.svg) center / contain no-repeat;
+		background: url(images/icon-arrow-right.svg) center / contain no-repeat;
 	}
 
 .toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
@@ -243,9 +290,13 @@ main .container-lg-fluid {
 	height: 35px;
 }
 
+li.search-box-wrapper{
+	flex-grow:0 !important;
+}
+
 .search-box:focus{
 	position: absolute;
-	left:0;
+	left:10px;
 	width:100%;
 	top: -2px;
 }
