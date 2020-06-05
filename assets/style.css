@@ -34,6 +34,45 @@ body {
 .border-none {
 	border: none !important;
 }
+
+/* links */
+
+
+ a:hover, a:link, a:active, a:visited{
+	color: currentcolor;
+	text-decoration: none;
+}
+
+
+
+.link-c-red a:hover, .link-c-red:hover{
+	color: #f72210;
+}
+
+.link-c-red2 a:hover, .link-c-red2:hover {
+	color: #f92859;
+}
+
+.link-c-black a:hover, .link-c-black:hover{
+	color: black !important;
+}
+
+.link-u-red a:hover, .link-u-red:hover{
+	text-decoration-color: red !important;
+	text-decoration: underline;
+}
+
+
+.link-c-black a:hover, .link-c-black:hover{
+	color: black !important;
+}
+
+ .link-b-gray a:hover, .link-b-gray:hover{
+	background-color: #dbdcdd;
+}
+
+
+
 /* main */
 
 main{
@@ -347,6 +386,8 @@ li.search-box-wrapper{
 	font-size: 13px;
 	line-height: 18px; 
 	font-family:  Arial,Helvetica,sans-serif;
+	font-weight: initial;
+	padding-top: 15px;
 }
 
 
@@ -917,7 +958,7 @@ li.search-box-wrapper{
 }
 	
 	
-	.subscribe-item  figcaption {
+	.subscribe-item  .figcaption {
 		font-size: 24px;
 		line-height: 28px;
 		margin-right: 50px;
