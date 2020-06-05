@@ -38,7 +38,7 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project7/5b9eb4a77746c896e0574f8a90dffa338d4b0a2b/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project7/df753f835a736f712a732194644cf2bc1a8fd2c3/index.html)
 
 
 ## Author
