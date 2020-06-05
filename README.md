@@ -2,7 +2,7 @@
 Using bootstrap
 
 ## Microverse HTML/CSS project 7
-This project consists of replicating [The Newsweek ](https://www.newsweek.com/) front page layout. (Note: there may be some differences compared to the original as the site keeps updating everyday) 
+This project consists of replicating [The Newsweek ](https://www.newsweek.com/) front page layout. (Note: there may be some differences compared to the original as the site keeps updating everyday)
 
 
 
@@ -41,7 +41,7 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project7/df753f835a736f712a732194644cf2bc1a8fd2c3/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project7/ffa5db64b113c931ac093a7c702e4b4ff853a272/index.html)
 
 
 ## Author
