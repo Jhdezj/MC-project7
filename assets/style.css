@@ -132,21 +132,13 @@ main {
 @media(min-width:481px){
 	
 	
-	.subscribe-btn, .subscribe-btn-b{
+	.subscribe-btn{
 		flex-basis: 121px;
 		margin-right: 6px;
-		background-color: yellow;
-		color: black !important;
-		border-radius:3px;
 	}
+
 	
-	.subscribe-btn{
-		
-		color: white !important;
-		
-	}
-	
-	.subscribe-btn, .login-btn, .subscribe-btn-b{
+	.subscribe-btn, .login-btn{
 	padding: 6px 8px 6px 9px;
 	font-weight: 700;
 	font-size: 18px;
@@ -158,22 +150,13 @@ main {
 		padding-right:2px;
 	}
 
-.subscribe-btn-b::after {
-		width: 8px;
-		height: 14px;
-		content:"";
-		display:inline-block;
-		margin-left:10px;
-		background: url(images/icon-arrow-right-black.svg) center / contain no-repeat;
-	}
-
 .subscribe-btn::after {
 		width: 8px;
 		height: 14px;
 		content:"";
 		display:inline-block;
 		margin-left:10px;
-		background: url(images/icon-arrow-right.svg) center / contain no-repeat;
+		background: url(images/icon-arrow-right-red.svg) center / contain no-repeat;
 	}
 
 .toggler-icon>span, .toggler-icon::before, .toggler-icon::after{
