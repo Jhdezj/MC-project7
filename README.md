@@ -17,7 +17,9 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
  - Flexbox, Grid and floating elements
  - Positioning
  - SVG, png, jpg, and webp images
- - Bootstrap
+ - Media queries
+ - Bootstrap (no javascript was used )
+
 
 #### III. The main areas of the project can be divided as follows:
 
@@ -35,6 +37,7 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
 - HTML & CSS
 - Code Editors- Atom
 - Bootstrap 4.4.1
+
 
 ## Live Demo
 
