@@ -32,9 +32,9 @@ body {
   border: solid 2px black !important;
 }
 
-.border-none {
+/* .border-none {
   border: none !important;
-}
+} */
 
 /* links */
 
@@ -94,7 +94,7 @@ main .container-lg-fluid {
 header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media (min-width: 992px) {
@@ -335,16 +335,19 @@ li.search-box-wrapper {
 .story-section {
   color: black;
   font-size: 16px;
-  font-weight: bold;
+
+  /* font-weight: bold; */
 }
 
 .story-tag {
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
-  font-weight: bold;
+
+  /* font-weight: bold; */
   line-height: 16px;
   padding: 8px 15px 9px;
-  position: absolute;
+
+  /* position: absolute; */
   bottom: 0;
   left: 0;
 }
@@ -376,7 +379,8 @@ li.search-box-wrapper {
   width: 32px;
   background-color: black;
   color: #d6d6d6;
-  text-align: center;
+
+  /* text-align: center; */
   line-height: 32px;
 }
 
@@ -422,7 +426,8 @@ li.search-box-wrapper {
 .by-line {
   font-size: 14px;
   line-height: 21px;
-  text-transform: uppercase;
+
+  /* text-transform: uppercase; */
 }
 
 .by {
@@ -504,7 +509,8 @@ li.search-box-wrapper {
   max-width: 300px;
   font-size: 19px;
   line-height: 19px;
-  text-transform: uppercase;
+
+  /* text-transform: uppercase; */
   padding: 20px;
 }
 
@@ -520,7 +526,8 @@ li.search-box-wrapper {
   height: 32px;
   margin-top: 8px;
   border-radius: 3px;
-  border: none;
+
+  /* border: none; */
 }
 
 .newsletter-sign-up .form-text {
@@ -537,7 +544,8 @@ li.search-box-wrapper {
     display: grid;
     grid-template-columns: 45% 55%;
     grid-template-areas: "fa  ts" "fa  mhc" "sp1 mhc" "do  do" "sp2 sp2 ";
-    justify-content: center;
+
+    /* justify-content: center; */
   }
 
   .top-story {
@@ -565,7 +573,8 @@ li.search-box-wrapper {
   .sponsored2 {
     grid-area: sp2;
     width: 40%;
-    margin: auto;
+
+    /* margin: auto; */
   }
 
   .main-articles figcaption {
@@ -588,10 +597,10 @@ li.search-box-wrapper {
     width: calc(33.3% - 12px);
   }
 
-  .heroes-wrapper,
+  /* .heroes-wrapper,
   .culture-travel-wrapper {
     justify-content: space-between;
-  }
+  } */
 
   .more-stories figcaption {
     font-size: 17px;
@@ -609,12 +618,13 @@ li.search-box-wrapper {
     display: grid;
     grid-template-columns: 30% 40% 30%;
     grid-template-areas: "fa  ts   do" "fa  mhc  do" "fa  mhc  sp2" "sp1 mhc  sp2" "sp1 mhc  sp2";
-    justify-content: center;
+
+    /* justify-content: center; */
   }
 
-  .sponsored1 {
+  /* .sponsored1 {
     margin-bottom: 0;
-  }
+  } */
 
   .sponsored2 {
     grid-area: sp2;
@@ -661,7 +671,8 @@ li.search-box-wrapper {
   color: white;
   margin-right: 7px;
   line-height: 26px;
-  display: inline-block;
+
+  /* display: inline-block; */
 }
 
 @media (min-width: 768px) {
@@ -968,7 +979,8 @@ footer ul {
 
 .icon {
   height: 16px;
-  display: inline-block;
+
+  /* display: inline-block; */
   width: 21px;
 }
 
