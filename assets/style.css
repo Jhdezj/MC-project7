@@ -75,9 +75,9 @@ a:visited {
 
 main {
   max-width: 1310px;
-  margin-left: auto;
+  /*margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  margin-top: 0;*/
 }
 
 @media (min-width: 992px) {
@@ -401,21 +401,21 @@ li.search-box-wrapper {
   border-bottom: solid 1px #d6d6d6;
 }
 
-.vs-decoration {
+/*.vs-decoration {
   position: relative;
-}
+}*/
 
 .circ-pic {
   width: 63px;
   height: 63px;
   flex-basis: 63px;
-  flex-shrink: 0;
+  /*flex-shrink: 0;*/
 }
 
 .debate .title,
 .opinion .title {
   font-size: 17px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   line-height: 21px;
   color: black;
 }
@@ -511,18 +511,18 @@ li.search-box-wrapper {
 .newsletter-sign-up {
   background-color: #f4f5f6;
   max-width: 300px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 19px;
   line-height: 19px;
   text-transform: uppercase;
   padding: 20px;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .n-icon {
   width: 29px;
   height: 28px;
-  background-color: red;
+  /*background-color: red;*/
   margin-right: 10px;
 }
 
@@ -580,9 +580,9 @@ li.search-box-wrapper {
     margin: auto;
   }
 
-  .main-articles {
+  /*.main-articles {
     padding: 0;
-  }
+  }*/
 
   .main-articles figcaption {
     font-size: 24px;
@@ -614,7 +614,7 @@ li.search-box-wrapper {
   }
 
   .more-stories .sticky-wrapper {
-    position: sticky;
+    position: sticky; 
     top: 0;
   }
 }
@@ -752,7 +752,7 @@ li.search-box-wrapper {
 footer .logo > img {
   width: 236px;
   height: 36px;
-  margin-left: 0;
+  /*margin-left: 0;*/
 }
 
 .sections-subitems {
@@ -824,7 +824,7 @@ footer .logo > img {
 }
 
 .subscribe-item .img-front {
-  position: absolute;
+  /*position: absolute;*/
   top: 15px;
   left: 85px;
 }
@@ -874,7 +874,7 @@ footer .logo > img {
 .newsletter-item .subscribe-btn {
   height: 38px;
   line-height: 0;
-  margin-left: 0 !important;
+  /*margin-left: 0 !important;*/
 }
 
 .newsletter-item .subscribe-btn::after {
@@ -922,7 +922,8 @@ footer .logo > img {
     border: solid 1px #ebebeb;
   }
 
-  #email {
+
+#email {
     width: 100%;
   }
 
