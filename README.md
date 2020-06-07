@@ -2,6 +2,7 @@
 Using bootstrap
 
 ## Microverse HTML/CSS project 7
+
 This project consists of replicating [The Newsweek ](https://www.newsweek.com/) front page layout. (Note: there may be some differences compared to the original as the site keeps updating everyday)
 
 
@@ -9,11 +10,13 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
 ![screenshot](assets/images/readme-cover.png)
 
 #### I. The project was based on a responsive layout with the next break points:
+
  - For mobile displays with a screen smaller than 768px.
  - For tablet displays with a screen smaller than 1024 px.
  - For desktop displays with a screen wider than 1024 px.
 
 #### II. The layout was built with HTML and CSS,  focusing on responsiveness and making use of:
+
  - Flexbox, Grid and floating elements
  - Positioning
  - SVG, png, jpg, and webp images
@@ -38,10 +41,21 @@ This project consists of replicating [The Newsweek ](https://www.newsweek.com/) 
 - Code Editors- Atom
 - Bootstrap 4.4.1
 
-
 ## Live Demo
 
 - [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project7/ffa5db64b113c931ac093a7c702e4b4ff853a272/index.html)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+* #### Prerequisites:
+You can use any browser updated to the current version and your regular internet connection.
+* #### Setup & install:
+Clone or download the project folder using the button on the top right corner of this page.
+* #### Usage:
+Go to the project folder and open the `index.html` file on your browser.
+
 
 
 ## Author
